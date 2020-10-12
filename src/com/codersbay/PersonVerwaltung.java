@@ -11,8 +11,8 @@ public class PersonVerwaltung {
         persons.add(new Person(surname, name));
     }
 
-    public void createPerson(String surname, String name, Gender gender, LocalDate birth, Adresse adress) {
-        persons.add(new Person(surname, name, gender, birth, adress));
+    public void createPerson(String surname, String name, Gender gender, LocalDate birth, Adresse postCode) {
+        persons.add(new Person(surname, name, gender, birth, postCode));
     }
 
     public void createPerson(String surname, String name, Gender gender, LocalDate birth) {
